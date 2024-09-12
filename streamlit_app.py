@@ -1,3 +1,6 @@
+import streamlit as st
+import pyshorteners
+
 # URL 단축 함수
 def shorten_url(url):
     s = pyshorteners.Shortener()
